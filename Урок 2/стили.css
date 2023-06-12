@@ -1,0 +1,23 @@
+p, li {
+    color: blueviolet;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+html {
+    background-color: beige;
+}
+
+img {
+    display: block;
+}
+
+body {
+    background-color: azure;
+    width: 600px;
+    margin: auto;
+}
+
+h1 {
+    text-shadow: 3px, 3px, 10px,  black;
+}
