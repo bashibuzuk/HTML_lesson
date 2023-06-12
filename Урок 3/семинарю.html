@@ -8,9 +8,12 @@
 </head>
 <body>
     <script language='JavaScript'>
-
-        let a=prompt('Введите Ваше имя:')
-        alert ('Привет '+ a +' !')
+        function  alle () {
+            let a=prompt('Введите Ваше имя:', 'Имя')
+            return `Привет ${a}!`
+        }
+        
+        alert (alle())
     </script>
 </body>
 </html>
